@@ -1,0 +1,67 @@
+body {
+background-image: url(gnd.png);
+}
+
+img{
+	margin-left: 100px;
+	margin-top: 25px;
+}
+
+img{
+	transition: 0.25s all;
+}
+
+img:hover {
+	transform: scale(1.25);
+}
+
+p{
+  color: #362525;
+  border: 5px solid yellow;
+  padding: 5px;
+  margin-top: 15px;
+  width: 58%;
+  font-size: 20px; 
+}
+
+a{
+  color: black;
+  border: 5px solid yellow;
+  padding: 5px;
+  margin: 5px;
+}
+
+.ttl{
+  border: 5px solid red;
+  width: 10%;
+  font-size: 16px;  
+}
+
+.ttl:hover{
+	width: 15%;
+	border: 5px solid green;
+	font-size: 25px;  
+}
+
+#song{
+	width: 20%;
+	border: 5px solid green;
+}
+
+a:hover{
+	border: 10px solid green;
+}
+
+.info{
+   transition: 1s;
+   font-size: 20px;
+   padding: 5px;
+   color: #362525;
+   border: 10px solid blue;
+}
+
+.info:hover{
+	margin: 50px;
+	transform: scale(1.25);
+	font-size: 25px;
+}
